@@ -23,3 +23,9 @@ numeric_features:
 16. 'highest_value': مهم
 17. 'position_encoded': مهم
 18. 'winger': حذق
+
+
+new_features:
+
+1. 'games played'= 'minutes played'/90
+2. 
