@@ -1,0 +1,31 @@
+categorical_features :
+1. 'player': حذف
+2. 'team': حذق - مايأثر على سعر اللاعب
+3. 'name': مهم
+4. 'position': حذف
+
+numeric_features:
+1. 'height': حذف - مايأثر على سعر اللاعب الحالي
+2. 'age': حذف - مايأثر على سعر اللاعب الحالي
+3. 'appearance': مهم
+4. 'goals': مهم
+5. 'assists': مهم
+6. 'yellow cards': حذق
+7. 'second yellow cards': حذق
+8. 'red cards': حذق
+9. 'goals conceded': حذق
+10. 'clean sheets': حذق
+11.'minutes played': مهم
+12. 'days_injured': مهم
+13. 'games_injured': مهم
+14. 'award': مهم
+15. 'current_value': مهم
+16. 'highest_value': مهم
+17. 'position_encoded': مهم
+18. 'winger': حذق
+
+
+new_features:
+
+1. 'games played'= 'minutes played'/90
+2. 
